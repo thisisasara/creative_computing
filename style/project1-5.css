@@ -1,0 +1,101 @@
+.face{width:500px;
+height:500px;
+border-radius:50%;
+background-color: blue;
+padding:1px;
+transition: all 0.5s;
+}
+
+
+
+.eyes{width:500px;
+margin:105px auto 0 auto;
+transition: all 0.5s
+}
+
+.eyes{
+	margin-left:70px;
+}
+
+.eye{
+	width:130px;
+	height:130px;
+	background-color: white;
+	border-radius:50%;
+	display: inline-block;
+}
+
+#left_eye{
+	margin-right: 30px;
+}
+
+.pupil{
+	width:75px;
+	height:75px;
+	background-color:black ;
+	border-radius:50%;
+}
+
+.pupil{
+	margin-left:30px;
+	margin-top: 30px;
+	transition: all 0.5s;
+
+}
+
+.eye:hover {
+	width:180px;
+	height:180px;
+  	position: relative;
+  	background-color: red;
+}
+
+.pupil:hover{
+	width:65px;
+	height:65px;
+	background-color:black ;
+	border-radius:50%;
+}
+
+.nose{
+	width: 0; 
+	height: 0; 
+  border-bottom: 120px solid yellow;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	
+	margin-left:160px;
+	margin-top: -20px;
+}
+
+.nose:hover{
+    width: 0; 
+	height: 0; 
+  border-bottom: 190px solid yellow;
+	border-left: 90px solid transparent;
+	border-right: 90px solid transparent;
+	
+	margin-left:130px;
+	margin-top: -20px;
+
+
+}
+
+.mouth{
+	width: 100px;
+    height: 100px;
+    border-radius:50%;
+    background-color: red;
+    margin:20px 0 0 200px;
+}
+
+.mouth:hover{
+	width: 200px;
+    height: 200px;
+    border-radius:50%;
+    background-color: yellow;
+    margin:15px 0 0 150px;
+    transition: all 0.5s
+}
+
+
