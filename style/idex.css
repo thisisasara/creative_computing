@@ -1,0 +1,7 @@
+
+#exercise_1{font-size:2vw;
+			color:blue;
+			transition: all 0.5s;}
+#exercise_1:hover{color:red;
+				font-size:3vw;}
+
