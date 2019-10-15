@@ -4,5 +4,24 @@ p{font-size:30pt;}
 .green_text{color:green;}
 .red_text{color:red;}
 
-.fixed_size{font-size:12pt;}
+.fixed_size{font-size:30pt;}
+.responsive_size{font-size:20vw;}
+.fixed_box{width:200px; height:200px;
+			background-color:blue;}
+.resonsive_box{width:20vw; height:20vh;
+				background-color:red;}
 
+
+
+
+#box_1{margin:0 auto 0 auto;}
+#box_3:hover{background-color:blue;}
+
+#box_4{width:400px;
+		height:400px;
+	transition: all 1.5s;}
+#box_4:hover{width:400px;
+			height:400px;
+			background-color:blue;
+			border:200px solid yellow;
+			margin-left: 600px}
