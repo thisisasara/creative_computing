@@ -1,0 +1,158 @@
+*{margin:0;
+  padding:0;}
+ a{
+	color:black;
+	text-decoration: none;
+}
+
+.box{width:90vw;
+height:5vw;
+background-color:white;}
+.menu{
+  width:20vw;
+  text-align:left;
+  position:absolute;
+/*  margin-top:-50vw;*/
+}
+.menu_title{
+  font-family:sans-serif;
+  font-weight: bold;
+  font-style:italic;
+  font-size:2vw;
+  padding:1.3vw;
+  background-color: white;
+}
+
+h1{ color: black;
+	animation: change-color 1s
+	infinite;}
+
+@keyframes change-color{
+	0%{
+		/* beginning of the animation*/
+		color:black;}
+	50%{
+		color:brown;}
+	0%{
+		/*end of the animation*/
+		color:black;}
+	}
+
+.menu_item{
+ font-family:sans-serif;
+  font-weight: bold;
+  font-style:italic;
+  font-size:1.5vw;
+  padding:1vw;
+  background-color: white;
+  transition:opacity .25s;
+  flex:1;
+}
+
+.menu_item_container{
+  height:0;
+  display:flex;
+  flex-direction:column;
+  overflow:hidden;
+  transition: height .25s;
+}
+
+.menu_title:hover{
+	color:brown;
+}
+
+/*.menu_item_container:hover{
+	background-color:brown;
+}*/
+
+h1:hover{color:brown;}
+
+.menu:hover .menu_item_container{  
+  height:10vw;
+}
+.menu_item:hover{
+  background-color:white;}
+
+
+
+
+.foot{
+	position:absolute;	
+	margin-top:-80vw;
+}
+
+#f1{position:absolute;
+	top:60vw;
+	left:65vw;}
+
+#f2{position:absolute;
+	top:40vw;
+	left:45vw;}
+
+#f3{position:absolute;
+	top:40vw;
+	left:65vw;}
+
+#f4{position:absolute;
+	top:60vw;
+	left:45vw;}
+
+
+
+
+
+
+
+.nut{
+	position:absolute;	
+	margin-top:-80vw;
+}
+
+#n2{position:absolute;
+	top:62vw;
+	left:20vw;}
+
+#n1{position:absolute;
+	top:24vw;
+	left:17vw;}
+
+#n3{position:absolute;
+	top:63vw;
+	left:16vw;}
+
+#n4{position:absolute;
+	top:63vw;
+	left:14vw;}
+
+#n5{position:absolute;
+	top:63vw;
+	left:19vw;}
+
+#n6{position:absolute;
+	top:61vw;
+	left:15vw;}
+
+
+
+.sq{
+	position:absolute;	
+	margin-top:-80vw;
+}
+#s5{position:absolute;
+	margin-top:55vw;
+    margin-left:65vw;
+   display:none;}
+#s6{position:absolute;
+	margin-top:32vw;
+    margin-left:35vw;
+    display:none;}
+#s7{position:absolute;
+	margin-top:32vw;
+    margin-left:65vw;
+   display:none;}
+#s8{position:absolute;
+	margin-top:55vw;
+    margin-left:35vw;
+   display:none;}
+
+
