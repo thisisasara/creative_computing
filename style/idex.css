@@ -1,7 +1,61 @@
 
-#exercise_1{font-size:2vw;
-			color:blue;
-			transition: all 0.5s;}
-#exercise_1:hover{color:red;
-				font-size:3vw;}
+a{
+	color:black;
+	text-decoration: none;
+    font-family:sans-serif;}
+
+#heading{font-size:3vw;
+font-family: sans-serif;
+font-weight:bold;
+font-style:italic;
+color:black; margin-left:1vw;
+}
+
+#heading a:hover{
+	color:red;
+	text-align: center;
+	font-style:outline;
+}
+
+#intro{font-size:0.5vw;
+font-family: sans-serif;
+font-style:italic;
+color:black;
+margin-top:-11vw;
+margin-left:27vw;
+}
+
+
+
+
+
+
+#exercise_1{font-size:1vw;
+			color:black;
+			transition: all 0.5s;
+			margin-left:2vw;
+		    margin-top:10vw;}
+/*#exercise_1:hover{color:blue;
+				font-size:3vw;}*/
+
+#exercise_1 a:hover{
+	font-size:1.5vw;
+	color:red;
+	text-align: center;
+}
+
+#ex{font-size:1vw;
+			color:black;
+			transition: all 0.5s;
+			margin-right:2vw;
+			text-align: right}
+
+#ex a:hover{
+	font-size:1.5vw;
+	color:red;
+	text-align: center;
+}
+
+
+
 
